@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="長谷川侑哉の紹介ページ">
+    <title>HTML & CSS - 紹介ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML & CSSの紹介ページ</h1>
+    </header>
+
+    <div class="container">
+        <!-- プロフィール -->
+        <section class="profile">
+            <img src="pee.jpg" alt="長谷川侑哉のプロフィール画像">
+            <div>
+                <h2>プロフィール</h2>
+                <p>千葉工業大学の長谷川侑哉（Yuya Hasegawa）です。研究室では、ネットワークインフラ、アプリケーション開発を主軸に活動を行っています。26卒</p>
+            </div>
+        </section>
+
+        <!-- 業績 -->
+        <section class="achievements">
+            <h2>業績</h2>
+            <ul>
+                <li>特になし</li>
+            </ul>
+        </section>
+        <a href="index.php">戻る</a>
+    </div>
+
+    <footer>
+        <p>© 2024 長谷川侑哉. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
