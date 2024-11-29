@@ -1,0 +1,149 @@
+body {
+    font-family: 'Noto Sans JP';
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    background-image: url("mise12m.jpg");
+    background-size: cover;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+/* ヘッダー */
+.header {
+    background-color: #1a1a1a;
+    color: #f4ca4d;
+    text-align: left;
+    padding: 2em 2em;
+    border-bottom: 2px solid #f4ca4d;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+p.title img {
+    width: 130px;
+}
+
+/* ナビゲーション */
+.ddmenu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #111;
+    padding: 0;
+    margin: 0;
+    padding-left: 4em;
+    list-style: none;
+}
+
+.ddmenu li {
+    margin: 0;
+}
+
+.ddmenu a {
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #f4ca4d;
+    font-weight: bold;
+}
+
+.ddmenu a:hover {
+    background-color: #f4ca4d;
+    color: #000;
+}
+
+/* メイン */
+.big_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+main {
+    flex: 3;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+main h1 {
+    font-size: 1.8em;
+    color: #f4ca4d;
+    border-bottom: 2px solid #f4ca4d;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* メニュー */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2c2b2b;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #f4ca4d;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 200px; 
+    height: auto;
+    display: block;
+    margin: 10px auto; 
+    border-radius: 8px;
+}
+
+section p {
+    color: #d1d1d1;
+    margin-top: 10px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.r_aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aside-box {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f4ca4d;
+    text-align: center;
+}
+
+/* フッター */
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1a1a1a;
+    border-top: 2px solid #f4ca4d;
+    color: #f4ca4d;
+    margin-top: 20px;
+}
